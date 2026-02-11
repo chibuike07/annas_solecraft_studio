@@ -9,7 +9,7 @@ import type {
   ICategorySection,
   IProduct,
 } from "./ProductShowcase.interface";
-import * as S from "./ProductShowcase.styles";
+import { Page, Categories } from "./ProductShowcase.styles";
 
 const WHATSAPP_NUMBER = "2348162900206";
 const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || "";
@@ -324,9 +324,9 @@ export default function ProductShowcase() {
   };
 
   return (
-    <S.Page>
+    <Page>
       <Hero />
-      <S.Categories id="categories">
+      <Categories id="categories">
         {categories.map((category) => (
           <CategorySection
             key={category.id}
@@ -336,8 +336,8 @@ export default function ProductShowcase() {
             onBuyClick={handleBuyClick}
           />
         ))}
-      </S.Categories>
+      </Categories>
       <Footer />
-    </S.Page>
+    </Page>
   );
 }
