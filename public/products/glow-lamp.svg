@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecfeff" />
+      <stop offset="100%" stop-color="#f0fdf4" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="28" fill="url(#bg)" />
+  <rect x="40" y="50" width="560" height="320" rx="24" fill="#ffffff" />
+  <text x="80" y="180" font-size="32" font-family="Segoe UI, sans-serif" fill="#111827">Glow Smart Lamp</text>
+  <text x="80" y="230" font-size="18" font-family="Segoe UI, sans-serif" fill="#6b7280">Onyiye Product Preview</text>
+</svg>
