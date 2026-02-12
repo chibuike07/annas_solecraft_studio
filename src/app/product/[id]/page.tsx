@@ -284,7 +284,7 @@ export default function ProductDetailPage({ params }: IProductDetailPageProps) {
 
         <div className="product_header">
           <Image
-            src={product.image}
+            src={productImageUrl}
             alt={product.name}
             width={400}
             height={300}

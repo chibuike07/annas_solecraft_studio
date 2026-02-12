@@ -94,7 +94,7 @@ When a customer clicks "Buy on WhatsApp":
    Category: Best Sellers
    Promo Code: ZEN12
    Discount: 12%
-  Product Link: https://chibuike07.github.io/anna_products/product/best-1
+   Product Link: https://chibuike07.github.io/anna_products/product/best-1
    ```
 
 2. **Customer receives message** with product link
