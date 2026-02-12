@@ -4,5 +4,9 @@ export interface ICategorySectionProps {
   category: ICategorySection;
   visibleCount: number;
   onLoadMore: () => void;
-  onBuyClick: (product: IProduct, categoryTitle: string) => void;
+  onBuyClick: (
+    product: IProduct,
+    categoryTitle: string,
+    quantity: number,
+  ) => void;
 }

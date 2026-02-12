@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const FooterWrapper = styled.footer`
+export const FooterSection = styled.footer`
   text-align: center;
   color: var(--muted);
   font-size: 0.85rem;
   padding-bottom: 1rem;
 
-  .footer-icons {
+  .footer_icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@ export const FooterWrapper = styled.footer`
     flex-wrap: wrap;
   }
 
-  .footer-note {
+  .footer_note {
     margin-top: 0.5rem;
   }
 `;

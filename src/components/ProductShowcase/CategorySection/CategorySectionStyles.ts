@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const SectionWrapper = styled.section`
-  .section-header {
+export const CategorySectionWrapper = styled.div`
+  .section_header {
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
@@ -17,13 +17,13 @@ export const SectionWrapper = styled.section`
     }
   }
 
-  .cards-grid {
+  .cards_grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 1.5rem;
   }
 
-  .load-more-row {
+  .load_more_row {
     display: flex;
     justify-content: center;
     margin-top: 0.9rem;

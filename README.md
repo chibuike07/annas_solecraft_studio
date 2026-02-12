@@ -1,6 +1,6 @@
-# Onyiye Product Showcase
+# Ngozi Product Showcase
 
-Responsive landing page built with Next.js, TypeScript, and styled-components. It showcases products by category and sends buyers to WhatsApp with product details.
+Responsive landing page built with Next.js, TypeScript, and styled-components. It showcases premium curated products by category and enables instant checkout via WhatsApp integration.
 
 ## Quick Start
 
@@ -15,12 +15,12 @@ Responsive landing page built with Next.js, TypeScript, and styled-components. I
 
 This project is configured for static export. For GitHub Pages:
 
-1. Set `NEXT_PUBLIC_BASE_PATH` to your repository name (for example: `onyiye_product_site`).
+1. Set `NEXT_PUBLIC_BASE_PATH` to your repository name (for example: `ngozi-site`).
 2. Run `npm run build`.
 3. Deploy the `out` folder using your preferred GitHub Pages workflow.
 
 ## Customize
 
-- Update the WhatsApp number in `WHATSAPP_NUMBER` inside `src/components/ProductShowcase/ProductShowcase.tsx`.
+- Update the WhatsApp number in `WHATSAPP_NUMBER` constant inside `src/lib/utils/dummyData.ts` (currently: 2348121485310).
 - Replace placeholder product images inside `public/products` with real product images.
-- Update product data inside `ProductShowcase.tsx`.
+- Update product data inside `src/lib/utils/dummyData.ts` (products array and categories).

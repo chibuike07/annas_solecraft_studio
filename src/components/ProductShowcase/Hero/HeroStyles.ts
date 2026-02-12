@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeroWrapper = styled.section`
+export const HeroSection = styled.div`
   background:
     radial-gradient(
       circle at top left,
@@ -26,7 +26,7 @@ export const HeroWrapper = styled.section`
     padding: 2.5rem 6%;
   }
 
-  .hero-content {
+  .hero_content {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -43,12 +43,12 @@ export const HeroWrapper = styled.section`
       max-width: 38rem;
     }
 
-    .hero-actions {
+    .hero_actions {
       display: flex;
       flex-wrap: wrap;
       gap: 1rem;
 
-      .primary-btn {
+      .primary_btn {
         background: var(--brand);
         color: #fff;
         padding: 0.85rem 1.6rem;
@@ -66,7 +66,7 @@ export const HeroWrapper = styled.section`
         }
       }
 
-      .ghost-btn {
+      .ghost_btn {
         border: 1px solid var(--border);
         color: var(--text);
         padding: 0.85rem 1.6rem;
@@ -86,7 +86,7 @@ export const HeroWrapper = styled.section`
     }
   }
 
-  .hero-visual {
+  .hero_visual {
     background: linear-gradient(145deg, #0f172a 0%, #1e3a8a 45%, #312e81 100%);
     border-radius: 20px;
     padding: 1.5rem;
@@ -94,24 +94,24 @@ export const HeroWrapper = styled.section`
     display: grid;
     gap: 1rem;
 
-    .metric-row {
+    .metric_row {
       display: flex;
       gap: 1rem;
       flex-wrap: wrap;
 
-      .metric-card {
+      .metric_card {
         background: rgba(255, 255, 255, 0.16);
         padding: 1rem;
         border-radius: 16px;
         flex: 1 1 140px;
         min-width: 120px;
 
-        .metric-value {
+        .metric_value {
           font-size: 1.4rem;
           font-weight: 700;
         }
 
-        .metric-label {
+        .metric_label {
           font-size: 0.85rem;
           color: rgba(255, 255, 255, 0.75);
         }
