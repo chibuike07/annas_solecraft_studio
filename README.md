@@ -23,4 +23,6 @@ This project is configured for static export. For GitHub Pages:
 
 - Update the WhatsApp number in `WHATSAPP_NUMBER` constant inside `src/lib/utils/dummyData.ts` (currently: 2348121485310).
 - Replace placeholder product images inside `public/products` with real product images.
+- Replace animated spotlight GIFs inside `public/animations` with your own cartoon billboards.
 - Update product data inside `src/lib/utils/dummyData.ts` (products array and categories).
+- Adjust the green UI palette in `src/app/globals.css` if you want a different theme.
