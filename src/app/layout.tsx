@@ -3,7 +3,8 @@ import StyledComponentsRegistry from "@/lib/styled-components-registry";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Anna's Kitchen - Authentic Nigerian Igbo Delicacies | Order on WhatsApp",
+  title:
+    "Anna's Kitchen - Authentic Nigerian Igbo Delicacies | Order on WhatsApp",
   description:
     "Savor the taste of authentic Nigerian Igbo delicacies from Anna's Kitchen. Fresh local meals, soups, swallows, and more with instant WhatsApp ordering. Fast delivery and excellent taste.",
   keywords:
@@ -14,14 +15,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://chibuike07.github.io/anns_delicacies",
+    url: "https://chibuike07.github.io/annas_delicacies",
     siteName: "Anna's Kitchen",
     title: "Anna's Kitchen - Authentic Nigerian Igbo Delicacies",
     description:
       "Shop premium curated gear for bold lifestyles with instant WhatsApp checkout.",
     images: [
       {
-        url: "https://chibuike07.github.io/anns_delicacies/og-image.jpg",
+        url: "https://chibuike07.github.io/annas_delicacies/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Anna's Kitchen - Nigerian Igbo Delicacies",
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     title: "Anna's Kitchen - Authentic Nigerian Igbo Delicacies",
     description:
       "Savor authentic Nigerian Igbo delicacies from Anna's Kitchen with instant WhatsApp ordering.",
-    images: ["https://chibuike07.github.io/anns_delicacies/og-image.jpg"],
+    images: ["https://chibuike07.github.io/annas_delicacies/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://chibuike07.github.io/anns_delicacies",
+    canonical: "https://chibuike07.github.io/annas_delicacies",
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
 };

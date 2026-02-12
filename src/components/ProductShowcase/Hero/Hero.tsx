@@ -8,8 +8,9 @@ export default function Hero({}: IHeroProps) {
       <div className="hero_content">
         <h1>Welcome to Ann's Kitchen — Authentic Nigerian Igbo Cuisine.</h1>
         <p>
-          Experience traditional Igbo delicacies prepared with love and authentic ingredients. 
-          Order your favorite soups, fufu, and delicacies with instant WhatsApp checkout.
+          Experience traditional Igbo delicacies prepared with love and
+          authentic ingredients. Order your favorite soups, fufu, and delicacies
+          with instant WhatsApp checkout.
         </p>
         <div className="hero_actions">
           <a href="#categories" className="primary_btn">

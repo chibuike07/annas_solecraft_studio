@@ -10,8 +10,8 @@ export default function HomePage() {
             "@context": "https://schema.org",
             "@type": "Organization",
             name: "Anna's Kitchen",
-            url: "https://chibuike07.github.io/anns_delicacies",
-            logo: "https://chibuike07.github.io/anns_delicacies/logo.png",
+            url: "https://chibuike07.github.io/annas_delicacies",
+            logo: "https://chibuike07.github.io/annas_delicacies/logo.png",
             description:
               "Premium curated products with instant WhatsApp checkout",
             sameAs: ["https://wa.me/2348121485310"],
@@ -32,7 +32,7 @@ export default function HomePage() {
             name: "Anna's Kitchen Delicacies",
             description:
               "Discover authentic Nigerian Igbo delicacies. Fresh soups, swallows, proteins, and more traditional meals.",
-            url: "https://chibuike07.github.io/anns_delicacies",
+            url: "https://chibuike07.github.io/annas_delicacies",
             mainEntity: {
               "@type": "Product",
               name: "Curated Product Collection",
