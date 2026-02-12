@@ -3,37 +3,37 @@ import StyledComponentsRegistry from "@/lib/styled-components-registry";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Anna - Premium Curated Products | Instant WhatsApp Checkout",
+  title: "Anna's Kitchen - Authentic Nigerian Igbo Delicacies | Order on WhatsApp",
   description:
-    "Shop premium curated gear for bold lifestyles. Explore hot sales, best sellers, popular picks, and more with instant WhatsApp checkout. Fast, secure, and convenient shopping experience.",
+    "Savor the taste of authentic Nigerian Igbo delicacies from Anna's Kitchen. Fresh local meals, soups, swallows, and more with instant WhatsApp ordering. Fast delivery and excellent taste.",
   keywords:
-    "curated products, instant checkout, WhatsApp shopping, premium gear, best sellers",
-  authors: [{ name: "Anna" }],
-  creator: "Anna",
-  publisher: "Anna",
+    "Nigerian food, Igbo delicacies, Anna's Kitchen, local food, Nigerian meals, WhatsApp food order",
+  authors: [{ name: "Anna's Kitchen" }],
+  creator: "Anna's Kitchen",
+  publisher: "Anna's Kitchen",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://chibuike07.github.io/anna_products",
-    siteName: "Anna",
-    title: "Anna - Premium Curated Products | Instant WhatsApp Checkout",
+    url: "https://chibuike07.github.io/anns_delicacies",
+    siteName: "Anna's Kitchen",
+    title: "Anna's Kitchen - Authentic Nigerian Igbo Delicacies",
     description:
       "Shop premium curated gear for bold lifestyles with instant WhatsApp checkout.",
     images: [
       {
-        url: "https://chibuike07.github.io/anna_products/og-image.jpg",
+        url: "https://chibuike07.github.io/anns_delicacies/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Anna Store - Premium Curated Products",
+        alt: "Anna's Kitchen - Nigerian Igbo Delicacies",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anna - Premium Curated Products | Instant WhatsApp Checkout",
+    title: "Anna's Kitchen - Authentic Nigerian Igbo Delicacies",
     description:
-      "Shop premium curated gear for bold lifestyles with instant WhatsApp checkout.",
-    images: ["https://chibuike07.github.io/anna_products/og-image.jpg"],
+      "Savor authentic Nigerian Igbo delicacies from Anna's Kitchen with instant WhatsApp ordering.",
+    images: ["https://chibuike07.github.io/anns_delicacies/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://chibuike07.github.io/anna_products",
+    canonical: "https://chibuike07.github.io/anns_delicacies",
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
 };

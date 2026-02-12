@@ -9,9 +9,9 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Organization",
-            name: "Anna",
-            url: "https://chibuike07.github.io/anna_products",
-            logo: "https://chibuike07.github.io/anna_products/logo.png",
+            name: "Anna's Kitchen",
+            url: "https://chibuike07.github.io/anns_delicacies",
+            logo: "https://chibuike07.github.io/anns_delicacies/logo.png",
             description:
               "Premium curated products with instant WhatsApp checkout",
             sameAs: ["https://wa.me/2348121485310"],
@@ -29,10 +29,10 @@ export default function HomePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            name: "Anna Curated Products",
+            name: "Anna's Kitchen Delicacies",
             description:
-              "Discover premium curated gear for bold lifestyles. Hot sales, best sellers, popular picks, and more.",
-            url: "https://chibuike07.github.io/anna_products",
+              "Discover authentic Nigerian Igbo delicacies. Fresh soups, swallows, proteins, and more traditional meals.",
+            url: "https://chibuike07.github.io/anns_delicacies",
             mainEntity: {
               "@type": "Product",
               name: "Curated Product Collection",

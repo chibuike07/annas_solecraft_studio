@@ -37,7 +37,7 @@ export async function generateMetadata({
   const productPageUrl = getProductDetailUrl(product.id);
 
   return {
-    title: `${product.name} | Anna`,
+    title: `${product.name} | Anna's Kitchen`,
     description: product.description,
     keywords: [product.name, product.badge || "", "curated products"].filter(
       Boolean,
@@ -338,7 +338,7 @@ export default function ProductDetailPage({ params }: IProductDetailPageProps) {
               priceCurrency: "NGN",
               brand: {
                 "@type": "Brand",
-                name: "Anna",
+                name: "Anna's Kitchen",
               },
               offers: {
                 "@type": "Offer",

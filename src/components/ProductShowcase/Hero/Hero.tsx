@@ -6,56 +6,56 @@ export default function Hero({}: IHeroProps) {
   return (
     <HeroSection>
       <div className="hero_content">
-        <h1>Meet Anna — curated gear for bold lifestyles.</h1>
+        <h1>Welcome to Ann's Kitchen — Authentic Nigerian Igbo Cuisine.</h1>
         <p>
-          Explore hot sales, best sellers, and popular picks. Every product
-          includes instant WhatsApp checkout so you can purchase in seconds.
+          Experience traditional Igbo delicacies prepared with love and authentic ingredients. 
+          Order your favorite soups, fufu, and delicacies with instant WhatsApp checkout.
         </p>
         <div className="hero_actions">
           <a href="#categories" className="primary_btn">
-            Shop Collections
+            Order Now
           </a>
           <a href="#contact" className="ghost_btn">
-            Talk to Sales
+            Contact Us
           </a>
         </div>
       </div>
       <div className="hero_visual">
         <div>
-          <FiZap size={22} /> Instant buy in WhatsApp
+          <FiZap size={22} /> Order via WhatsApp instantly
         </div>
         <div className="metric_row">
           <div className="metric_card">
-            <div className="metric_value">40+</div>
-            <div className="metric_label">Curated products</div>
+            <div className="metric_value">24+</div>
+            <div className="metric_label">Delicious dishes</div>
           </div>
           <div className="metric_card">
             <div className="metric_value">4.9/5</div>
-            <div className="metric_label">Customer love</div>
+            <div className="metric_label">Customer ratings</div>
           </div>
           <div className="metric_card">
-            <div className="metric_value">24h</div>
-            <div className="metric_label">Fast response</div>
+            <div className="metric_value">2h</div>
+            <div className="metric_label">Fast delivery</div>
           </div>
         </div>
         <div className="metric_row">
           <div className="metric_card">
             <div className="metric_value">
-              <FiAward /> Trusted
+              <FiAward /> Fresh
             </div>
-            <div className="metric_label">Top-rated store</div>
+            <div className="metric_label">Daily ingredients</div>
           </div>
           <div className="metric_card">
             <div className="metric_value">
-              <FiTrendingUp /> Trending
+              <FiTrendingUp /> Popular
             </div>
-            <div className="metric_label">Weekly drops</div>
+            <div className="metric_label">Top dishes</div>
           </div>
           <div className="metric_card">
             <div className="metric_value">
-              <FiShield /> Secure
+              <FiShield /> Hygienic
             </div>
-            <div className="metric_label">Verified vendors</div>
+            <div className="metric_label">Clean kitchen</div>
           </div>
         </div>
       </div>
