@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const PageWrapper = styled.div`
   min-height: 100vh;
-  background: linear-gradient(135deg, #fff7ed 0%, #fef3c7 100%);
+  background: var(--accent-soft);
   padding: 2rem;
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ export const ProductContainer = styled.article`
   overflow: hidden;
   max-width: 600px;
   width: 100%;
-  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.15);
+  box-shadow: 0 20px 60px rgba(24, 28, 42, 0.1);
 
   .product_header {
     background: transparent;
@@ -52,20 +52,24 @@ export const ProductContainer = styled.article`
         display: inline-block;
         padding: 0.4rem 0.8rem;
         border-radius: 999px;
-        background: rgba(249, 115, 22, 0.12);
-        color: var(--brand-dark);
+        background: var(--badge, #8c1c13);
+        color: #fff;
         font-weight: 600;
         font-size: 0.85rem;
+        letter-spacing: 0.01em;
+        box-shadow: 0 2px 8px rgba(140, 28, 19, 0.08);
       }
 
       .promo {
         display: inline-block;
         padding: 0.4rem 0.8rem;
         border-radius: 999px;
-        background: rgba(34, 197, 94, 0.16);
-        color: var(--accent);
+        background: rgba(31, 170, 89, 0.16);
+        color: var(--brand);
         font-weight: 600;
         font-size: 0.85rem;
+        letter-spacing: 0.01em;
+        box-shadow: 0 2px 8px rgba(31, 170, 89, 0.08);
       }
     }
 
