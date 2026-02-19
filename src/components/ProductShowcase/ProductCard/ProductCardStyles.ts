@@ -84,14 +84,25 @@ export const ProductCardWrapper = styled.article`
 
     h3,
     .product_name {
-      font-size: 1.05rem;
+      font-size: 1.12rem;
       margin: 0;
-      transition: color 0.2s ease;
+      font-weight: 700;
+      color: #181c2a;
+      letter-spacing: 0.01em;
+      text-shadow:
+        0 2px 8px rgba(24, 28, 42, 0.08),
+        0 1px 0 #fff;
+      transition:
+        color 0.2s ease,
+        text-shadow 0.2s ease;
     }
 
     .description {
-      color: var(--muted);
-      font-size: 0.9rem;
+      color: #3d4250;
+      font-size: 0.97rem;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      text-shadow: 0 1px 6px rgba(24, 28, 42, 0.07);
     }
 
     .tag_row {

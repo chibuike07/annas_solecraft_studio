@@ -12,8 +12,13 @@ export const CategorySectionWrapper = styled.div`
     }
 
     .subtitle {
-      color: var(--highlight);
-      font-size: 0.95rem;
+      color: #bfa14a; /* premium gold, matches brand */
+      font-size: 1.01rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      text-shadow:
+        0 2px 8px rgba(191, 161, 74, 0.1),
+        0 1px 0 #fff;
     }
   }
 

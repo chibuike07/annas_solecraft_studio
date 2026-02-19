@@ -40,6 +40,9 @@ export const ProductContainer = styled.article`
       font-size: 1.75rem;
       margin-bottom: 1rem;
       color: var(--text);
+      letter-spacing: -0.01em;
+      line-height: 1.15;
+      text-shadow: 0 1px 2px rgba(24, 28, 42, 0.04);
     }
 
     .product_meta {
@@ -74,10 +77,13 @@ export const ProductContainer = styled.article`
     }
 
     .description {
-      color: var(--muted);
-      font-size: 1.05rem;
-      line-height: 1.6;
+      color: #3a3a3a;
+      font-size: 1.13rem;
+      line-height: 1.7;
       margin-bottom: 2rem;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 0.08);
     }
 
     .price_section {
